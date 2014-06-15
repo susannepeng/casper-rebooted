@@ -47,7 +47,12 @@ pre code {
   transition: fill 150ms linear;
 }
 
-.clipboard:hover {
+.clipboard:hover, .clipboard.zeroclipboard-is-hover {
   fill: #FFFFFF;
+  transition: fill 150ms linear;
+}
+
+.clipboard.zeroclipboard-is-active {
+  fill: #FF6B6B;
   transition: fill 150ms linear;
 }

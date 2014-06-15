@@ -558,6 +558,7 @@ margin on the iframe, cause it breaks stuff. */
     padding: 0 5px 2px;
     line-height: 1.4em;
     text-decoration: none;
+    transition: background 150ms linear;
 }
 
 .post-meta a:hover {
